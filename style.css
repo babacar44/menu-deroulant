@@ -1,0 +1,257 @@
+
+body{
+  font-family: 'Source code pro', Calibri, serif;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0px;
+  width: 80%;
+  position: absolute;
+  background-color: rgb(154, 184, 224);
+ 
+}
+
+
+.logo{
+  border: 1px solid black;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  
+}
+img{
+  height: 100px;
+}
+nav{
+  border: 1px solid black;
+  width: 100%;
+  height: 80px;
+  background-color: #424558;
+  position: absolute;
+  top: 100px;
+  
+  
+  
+}
+
+
+nav ul{
+   margin-left: 15%;
+  margin-right: 10%; 
+}
+
+nav ul::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav ul li{
+  float: left;
+  position: relative;
+}
+nav  ul  li  a{
+  padding: 20px 30px;
+  color: #FFF;
+
+}
+
+nav ul  li:hover a{
+  padding: 15px 30px 20px 30px;
+}
+nav li{
+  list-style-type: none;
+}
+
+.submenu{
+  display: none;
+}
+nav a{
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav li:hover .submenu{
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  padding: 0px;
+  z-index: 1000;
+}
+
+.submenu li{
+  border-bottom: 1px solid #CCC;
+}
+.submenu li a{
+  padding: 15px 30px;
+  font-size: 13px;
+  color: #blue;
+  width: 270px;
+    
+}
+.menu-accueil:hover{
+  border-top: 5px solid #e44d26;
+  background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.menu-webdev:hover{
+  border-top: 5px solid #e44d26;
+  background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.menu-data:hover{
+  border-top: 5px solid #e44d26;
+  background-color: RGBa(228, 77, 38, 0.15);
+}
+.menu-ref:hover{
+  border-top: 5px solid #e44d26;
+  background-color: RGBa(228, 77, 38, 0.15);
+}
+.menu-contact:hover{
+  border-top: 5px solid #e44d26;
+  background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.submenu li:hover a{
+  color: #EEE;
+  font-weight: bold;
+}
+
+.menu-accueil .submenu{
+  background-color: RGB(230, 100, 40);
+  
+}
+.menu-webdev .submenu{
+  background-color: RGB(000, 160, 240);
+  
+}
+.menu-data .submenu{
+  background-color: RGB(250, 215, 100);
+  
+}
+
+.menu-ref .submenu {
+  background-color: RGB(210, 77, 60);
+}
+.menu-contact .submenu {
+  background-color: RBG(000, 115, 200);
+}
+
+.sect{
+  border: 1px solid black;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  text-align: center;
+ 
+}
+
+.art1{
+  border: 1px solid black;
+  width: 50%;
+  height: 95%;
+  position: absolute;
+  top:10px;
+  left: 10px;
+  background-color: red;
+   margin-left: 0px;
+  
+}
+.art2{
+  border: 1px solid black;
+  width: 46%;
+  height: 55%;
+  position: absolute;
+  top: 10px;
+  left: 52%;
+  background-color: blue;
+  margin-left: 0px;
+}
+.art3{
+  border: 1px solid black;
+  width: 46%;
+  height: 37.5%;
+  position: absolute;
+  top: 60%;
+  left: 52%;
+  background-color: blue;
+  margin-left: 0px;
+}
+
+.foot{
+  border: 1px solid black;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 610px;
+  left: 0px;
+  text-align: center;
+}
+
+.pied1{
+  border: 1px solid black;
+  width: 30%;
+  height: 90%;
+  position: absolute;
+  top: 5px;
+  left: 2%;
+  background-color: green;
+  margin-left: 0px;
+}
+
+.pied2{
+  border: 1px solid black;
+  width: 30%;
+  height: 90%;
+  position: absolute;
+  top: 5px;
+  left: 35%;
+  background-color: yellow;
+  margin-left: 0px;
+}
+.pied3{
+  border: 1px solid black;
+  width: 30%;
+  height: 90%;
+  position: absolute;
+  top: 5px;
+  left: 68%;
+  background-color: red;
+  margin-left: 0px;
+}
+
+
+@media(min-width: 768px)and (max-width:1388px)
+{
+    body{
+        width: 100%;
+        padding: 0px;
+  }
+    
+  
+  @media(max-width: 768px)
+{
+    body{
+        width: 100%;
+      padding: 0px;
+    }
+}
+  
+   @media(max-width: 767px)
+{
+    body{
+        width: 50%;
+        padding: 0px;
+        color: rgb(60, 255, 0);
+        background-color: green;
+        font-size: 0.15px;
+      
+    }
+
+
+}
+  
