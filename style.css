@@ -228,7 +228,7 @@ nav li:hover .submenu{
 @media(min-width: 768px)and (max-width:1388px)
 {
     body{
-        width: 100%;
+        width: 80%;
         padding: 0px;
   }
     
